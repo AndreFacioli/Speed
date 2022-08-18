@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br" >
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <title>Login </title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content first-content">
+            <div class="first-column">
+                <h2 class="title title-primary">welcome back!</h2>
+                <p class="description description-primary">To keep connected with us</p>
+                <p class="description description-primary">please login with your personal info</p>
+                <button class="btn btn-primary ">sign in</button>
+            </div>
+            <div class="second-column">
+                <h2 class="title">create account</h2>
+                <div class="social-media">
+                    <ul class="list-social-media">
+                    <a class="link-social-media" href="#">
+                       <li class="item-social-media">
+                          <i class="fab fa-facebook-f"></i>
+                       </li>
+                    </a>
+                    <a class="link-social-media" href="#">
+                       <li class="item-social-media" >
+                           <i class="fab fa-google-plus-g"></i>
+                       </li>
+                    </a>
+                     <a class="link-social-media" href="#">
+                        <li class="item-social-media">
+                             <i class="fab fa-linkedin-in"></i>
+                        </li>
+                    </a>
+
+                    </ul>
+                
+                </div><!-- social media -->
+                <p class="description description-second">or use your email for registration:</p>
+                <form class="form">
+                    <label class="label-imput" for="">
+                        <i class="far fa-user icon-modify"></i>
+                        <input class="texto-login" type="text" placeholder="Name">
+                    </label>
+                    <label class="label-imput icon-modify" for="">
+                        <i class="far fa-envelope"></i>
+                        <input class="texto-login" type="email" placeholder="Email" id="login">
+                    </label>
+                    <label class="label-imput" for="">
+                        <i class="fas fa-lock icon-modify"></i>
+                        <input class="texto-login" type="password" placeholder="Password" id="senha">
+                    </label> 
+                    <button input type="submit" onclick="logar()" return false class="btn2 btn2-second ">sign up</button>
+                </form>
+
+    </div>
+<script> src="scripte/Log.js;"
+/*function logar(){
+    var login=document.getElementById("login").value;
+    var senha=document.getElementById("senha").value;
+
+    if(login == "admin" && senha =="admin"){
+        alert("Sucesso ao logar"+ login+"!");
+        location.href="home.html"
+    }else{
+        alert("Usuário ou senha incorretos!")
+    }
+}*/</script>
+</body>
+</html>
